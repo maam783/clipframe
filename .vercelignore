@@ -1,0 +1,10 @@
+# Only the live app needs to ship to the CDN.
+.git
+.gitignore
+.vercelignore
+.claude/
+.tmp-test/
+*.test.html
+docs/
+CLAUDE.md
+README.md

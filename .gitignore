@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node / build (from M2 onward)
+node_modules/
+dist/
+.cache/
+*.log
+
+# Local
+.env
+.env.local
+
+# Never commit test media
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.gif
+!docs/**/*.gif
+.tmp-test/
+index.test.html
+*.test.html
+
+# Internal — kept local, not in the public repo
+CLAUDE.md
+docs/MASTERPLAN.md
+.claude/
